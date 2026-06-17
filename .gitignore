@@ -1,0 +1,57 @@
+# CatBoost
+catboost_info/
+*.cbm
+*.model
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Логи и данные
+*.log
+*.csv
+*.parquet
+*.feather
+data/
+logs/
+*.tmp
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Airflow
+airflow.db
+airflow-webserver.pid
+airflow-scheduler.pid
+logs/
+
+# Секреты
+.env
+*.key
+*.pem
+secrets/
+.ruff_cache/
+.venv/
